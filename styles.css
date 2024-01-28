@@ -1,0 +1,135 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*----------------------sign uf for...--------------------*/
+.sign-up-sec{
+    background-color: #332B5B;
+    text-align: center;
+    height: 32px;
+}
+.text-sign-up{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 6px 0;
+    transition: text-decoration 250ms linear;
+}
+.text-sign-up:hover,
+.text-sign-up:focus{
+    text-decoration: underline;
+}
+
+/*---------------------HEADER--------------------------------*/
+.header{
+    background-color: #1E4844;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 83px;
+}
+.header-list{
+    display: flex;
+    gap:11px;
+}
+.header-list-item, .header-link-cart{
+    padding: 15px 11px;
+    border-radius: 10px;
+    transition: background-color 250ms linear;
+}
+
+.header-link, .header-link-cart{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-list-item:hover,
+.header-list-item:focus{
+    background-color: rgb(194, 216, 204, 0.40);
+}
+.header-link-logo{
+    fill:#FFF;
+    transform: translateX(-110px);
+}
+.header-logo-svg{
+    transition: stroke 250ms linear, fill 250ms linear;
+}
+.header-logo-svg:hover,
+.header-logo-svg:focus{
+    stroke:#C2D8CC;
+    fill:#1E4844;
+}
+.header-link-cart:hover,
+.header-link-cart:focus{
+    background-color: rgb(194, 216, 204, 0.40);
+}
+/*------------------------HERO------------------------------------*/
